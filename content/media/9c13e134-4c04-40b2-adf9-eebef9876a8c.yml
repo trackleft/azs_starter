@@ -1,21 +1,21 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 1d486783-81d3-48bc-a081-1008679ce61d
+  uuid: 9c13e134-4c04-40b2-adf9-eebef9876a8c
   bundle: az_image
   default_langcode: en
   depends:
-    96fef40b-c934-458a-a82f-f599f4d6ada1: file
+    c899a4e2-4ef8-4456-ac96-0eb26c206465: file
 default:
   status:
     -
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   name:
     -
-      value: 'Bear Down Retire-Test Image'
+      value: 'Bear Down.jpeg'
   revision_translation_affected:
     -
       value: true
@@ -23,16 +23,10 @@ default:
     -
       langcode: en
       alias: null
-  field_focal_point_x:
-    -
-      value: '0.5'
-  field_focal_point_y:
-    -
-      value: '0.5'
   field_media_az_image:
     -
-      alt: 'A bunch of laptops on a table from above'
+      alt: 'Photo of Bear Down Gym'
       title: ''
       width: 1600
       height: 1064
-      entity: 96fef40b-c934-458a-a82f-f599f4d6ada1
+      entity: c899a4e2-4ef8-4456-ac96-0eb26c206465

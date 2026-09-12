@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 6a105cb7-7b46-4b34-95b5-caa155131883
+  bundle: az_text_background
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_text_background_paragraph_behavior:
+          text_background_full_width: full-width-background
+          text_background_color: text-bg-red
+          text_background_pattern: bg-triangles-top-left
+          text_background_padding: py-5
+          az_display_settings:
+            bottom_spacing: mb-4
+  revision_translation_affected:
+    -
+      value: true
+  field_az_text_area:
+    -
+      value: "<h2><strong>Text with Background adds visual interest!</strong></h2>\r\n"
+      format: az_standard

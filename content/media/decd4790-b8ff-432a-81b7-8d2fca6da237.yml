@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: decd4790-b8ff-432a-81b7-8d2fca6da237
+  bundle: az_image
+  default_langcode: en
+  depends:
+    72f898ff-7967-4641-a5dd-e094d88ab189: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Mall event-JacobChinn.jpeg'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_az_credit:
+    -
+      value: 'Jacob Chinn'
+      format: plain_text
+  field_media_az_image:
+    -
+      alt: "Event at University of Arizona's Mall"
+      title: ''
+      width: 1279
+      height: 853
+      entity: 72f898ff-7967-4641-a5dd-e094d88ab189

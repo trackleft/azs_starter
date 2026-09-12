@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6e3e892-ec69-4255-827c-89d948ad512b
+  bundle: az_person
+  default_langcode: en
+  depends:
+    4413a4e8-042f-4d43-ad76-3f741006569c: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Wilbur Wildcat'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /person/wilbur-wildcat
+      langcode: en
+  field_az_email:
+    -
+      value: wilburwildcat@email.arizona.edu
+  field_az_fname:
+    -
+      value: Wilbur
+  field_az_lname:
+    -
+      value: Wildcat
+  field_az_media_image:
+    -
+      entity: 4413a4e8-042f-4d43-ad76-3f741006569c
+  field_az_phones:
+    -
+      value: 520-621-XXXX
+  field_az_titles:
+    -
+      value: 'Official Mascot'

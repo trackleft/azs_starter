@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: fa0ec225-6233-4475-8680-4f77e0b69da6
+  uuid: 61ac5e9d-e52f-4de2-b06d-ab33e2989dc8
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,16 @@ default:
       target_id: 1
   filename:
     -
-      value: Starter-Graduation.jpeg
+      value: Wilma.jpeg
   uri:
     -
-      value: 'public://2025-03/Starter-Graduation.jpeg'
+      value: 'public://2021-07/Wilma.jpeg'
   filemime:
     -
       value: image/jpeg
   filesize:
     -
-      value: 207558
+      value: 12079
   status:
     -
       value: true
-  created:
-    -
-      value: 1626797231

@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4f7bf3dc-a4bd-42d7-ab9b-c1bd1952a9b5
+  bundle: az_news
+  default_langcode: en
+  depends:
+    7b186438-ea7b-4d94-bdb6-d5c166c2d61f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'UArizona Cuts Carbon Footprint with All-Renewable Grid-Purchased Power'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/uarizona-cuts-carbon-footprint-all-renewable-grid-purchased-power
+      langcode: en
+  field_az_body:
+    -
+      value: "<p>The University of Arizona is making strides to cut down on carbon emissions by partnering with Tucson Electric Power. By the end of May, the campus will obtain all of its grid-based electricity from renewable sources, cutting the university's greenhouse gas footprint by nearly one-third.</p>\r\n\r\n<p>UArizona entered into the&nbsp;<a href=\"https://sustainability.arizona.edu/projects/large-scale-renewable-energy\">Large Scale Renewable Energy Agreement</a>&nbsp;with TEP in December 2019. The agreement is the largest of its kind between a university and local utility in North America.</p>\r\n\r\n<p>Under the agreement, the university's energy will come from two sources: the Oso Grande Wind Farm in southeastern New Mexico and the Wilmot Energy Center solar-plus-storage system south of Tucson. The Wilmot Energy Center began delivering power to UArizona on April 30, and the wind farm is expected to go online later this month.</p>\r\n\r\n<p>With 47,000 students, 15,500 faculty and staff and more than $734 million in research activity, UArizona uses as much power as about 22,000 average American homes. The amount of energy generated from the agreement with TEP would be enough to provide nearly 12,000 average American homes with clean power. The environmental impact would be similar to removing 14,000 cars from the road annually.</p>\r\n\r\n<p>\"This marks a substantial step toward the university's climate neutrality goal of 2040 or sooner and will save the university millions of dollars,\" said&nbsp;<strong>Trevor Ledbetter</strong>, director of the university's&nbsp;<a href=\"https://sustainability.arizona.edu/\">Office of Sustainability</a>, who was part of the team that coordinated the agreement with TEP.</p>\r\n\r\n<p>The university also negotiated and locked in certain energy costs over the 20-year life of the agreement.</p>\r\n\r\n<p>\"The move to carbon neutrality is a strong trend in higher education,\" Ledbetter said. \"However, many institutions are taking another route by entering into purchase power agreements. These kinds of agreements are similar to what we're doing, but instead of a local utility, they often partner with a different third-party renewable energy developer, usually several states away.\"</p>\r\n\r\n<p>The agreement will offset the university's scope two emissions, which are greenhouse gases that result from the generation of electricity, heat or steam purchased from a utility provider.</p>\r\n\r\n<p>Generally, greenhouse gas emissions from businesses are categorized by three scopes, depending on the source from which they are produced.</p>\r\n\r\n<ul>\r\n\t<li>Scope one emissions are direct greenhouse emissions that occur from sources that are controlled or owned by an organization. At UArizona, these come from energy generated on campus using university-owned natural gas turbines as well as emissions from boiler combustion, on-campus use of fertilizer, the&nbsp;university vehicle fleet and fugitive emissions from refrigerants. Scope one emissions account for about 40% of campus electricity usage.</li>\r\n\t<li>Scope two emissions are greenhouse gas emissions that result from the generation of electricity, heat or steam purchased from a utility provider.</li>\r\n\t<li>Scope three emissions are those indirectly generated through daily commutes, business air travel, waste generation and similar greenhouse gas-producing activities done in the name of an institution.</li>\r\n</ul>\r\n\r\n<p>As a physical demonstration of the&nbsp;Large Scale Renewable Energy Agreement on campus, TEP installed solar panels that now shade a rooftop garden on the university's Environment and Natural Resources 2 Building. The&nbsp;<a href=\"https://news.arizona.edu/story/harvesting-sunlight-and-plant-power-uarizonas-greenest-building\">ENR2 Rooftop Photovoltaics (PV)+ Project</a>&nbsp;serves as an experimental education and research site for students to study the co-location of solar panels and growing of plants.</p>\r\n\r\n<p>\"This symbiotic approach allows evaporation from the plants to cool the solar panels, making them more efficient, while the solar panels shade the plants from the harsh Arizona sun, increasing their productivity,\" Ledbetter said.</p>\r\n\r\n<p>The university also is looking to launch a Sustainability and Climate Action Plan, designed to enhance the operational sustainability of the university. UArizona was one of six schools selected to receive pro bono consulting from program management firm Brailsford &amp; Dunlavey for the climate action portion of the plan.&nbsp;</p>\r\n\r\n<p>\"This will dovetail into a larger sustainability action planning process that will expand on the climate action plan and broaden the scope to include other sustainability efforts such as water conservation and waste reduction,\" Ledbetter said.</p>\r\n\r\n<p>TEP is also working with climate experts at UArizona's&nbsp;<a href=\"https://www.environment.arizona.edu/air\">Arizona Institutes for Resilience</a>&nbsp;to&nbsp;<a href=\"https://climas.arizona.edu/research/planning-sustainable-future-electric-utility-emissions-reductions-and-cumulative-carbon\">continue to develop</a>&nbsp;measurable, science-based carbon reduction targets to help guide the TEP's long-term resource development plans.</p>\r\n"
+      format: az_standard
+  field_az_byline:
+    -
+      value: 'By Mikayla Mace Kelley, University Communications'
+  field_az_expiration_date:
+    -
+      value: '2021-07-20T16:30:00'
+  field_az_featured_image_as_thumb:
+    -
+      value: true
+  field_az_media_image:
+    -
+      entity: 7b186438-ea7b-4d94-bdb6-d5c166c2d61f
+  field_az_media_thumbnail_image:
+    -
+      entity: 7b186438-ea7b-4d94-bdb6-d5c166c2d61f
+  field_az_published:
+    -
+      value: '2021-07-20'
+  field_az_short_title:
+    -
+      value: '[node:title]'
+  field_az_subheading:
+    -
+      value: "An agreement with Tucson Electric Power will reduce the University of Arizona's carbon footprint by one-third and save the university millions of dollars over the agreement's 20-year life."
+      format: plain_text

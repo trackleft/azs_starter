@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4413a4e8-042f-4d43-ad76-3f741006569c
+  bundle: az_image
+  default_langcode: en
+  depends:
+    4695b27b-289f-40e8-bc87-d257709fc66d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Wilbur.png
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_az_image:
+    -
+      alt: Wilbur
+      title: ''
+      width: 220
+      height: 192
+      entity: 4695b27b-289f-40e8-bc87-d257709fc66d

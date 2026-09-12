@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 18910b6c-de57-462f-b459-e7b91ec4f302
+  bundle: az_flexible_page
+  default_langcode: en
+  depends:
+    0070274b-0a32-4e46-9a74-27a95e7abeb2: paragraph
+    c90fb3d8-e75e-412d-8253-4b5c2238df66: paragraph
+    5df32030-5956-4f30-a44d-2ae705e95fc1: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'News Page'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /news-page
+      langcode: en
+  field_az_main_content:
+    -
+      entity: 0070274b-0a32-4e46-9a74-27a95e7abeb2
+    -
+      entity: c90fb3d8-e75e-412d-8253-4b5c2238df66
+    -
+      entity: 5df32030-5956-4f30-a44d-2ae705e95fc1

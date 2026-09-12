@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3ccdc5cf-127e-4f7a-a239-9795346d86fe
+  bundle: az_news
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'News Article without Photo'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/news-article-without-photo
+      langcode: en
+  field_az_body:
+    -
+      value: "<p>You don't have to add an image to your article. This way, only the article title and Summary text will display on your News Page.</p>\r\n\r\n<p>Learn more about how to create news and other content at <a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a>.</p>\r\n"
+      format: az_standard
+  field_az_byline:
+    -
+      value: 'By Me'
+  field_az_expiration_date:
+    -
+      value: '2021-07-26T18:30:00'
+  field_az_featured_image_as_thumb:
+    -
+      value: true
+  field_az_published:
+    -
+      value: '2021-07-26'
+  field_az_short_title:
+    -
+      value: '[node:title]'
+  field_az_summary:
+    -
+      value: "You don't have to add an image to your article. This way, only the article title and Summary text will display on your News Page."
+      format: plain_text

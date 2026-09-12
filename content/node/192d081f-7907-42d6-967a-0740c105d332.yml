@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 192d081f-7907-42d6-967a-0740c105d332
+  bundle: az_flexible_page
+  default_langcode: en
+  depends:
+    dafa2e0b-74d8-4fff-98a3-8539f0c269e3: paragraph
+    22e49a78-77d8-470e-bb47-d86746d3ed7d: paragraph
+    b4d7ac2d-2598-4da6-9726-ff3dafc558b9: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Events Page'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /events-page
+      langcode: en
+  field_az_main_content:
+    -
+      entity: dafa2e0b-74d8-4fff-98a3-8539f0c269e3
+    -
+      entity: 22e49a78-77d8-470e-bb47-d86746d3ed7d
+    -
+      entity: b4d7ac2d-2598-4da6-9726-ff3dafc558b9

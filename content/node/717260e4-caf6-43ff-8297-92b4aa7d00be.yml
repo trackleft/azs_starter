@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 717260e4-caf6-43ff-8297-92b4aa7d00be
+  bundle: az_news
+  default_langcode: en
+  depends:
+    9c13e134-4c04-40b2-adf9-eebef9876a8c: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'News Article with Photo'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /news/news-article-photo
+      langcode: en
+  field_az_body:
+    -
+      value: "<p>You can add News to your site to highlight cool things that your department is doing.&nbsp;</p>\r\n"
+      format: az_standard
+  field_az_byline:
+    -
+      value: 'By Me'
+  field_az_expiration_date:
+    -
+      value: '2021-07-20T16:30:00'
+  field_az_featured_image_as_thumb:
+    -
+      value: true
+  field_az_media_image:
+    -
+      entity: 9c13e134-4c04-40b2-adf9-eebef9876a8c
+  field_az_media_thumbnail_image:
+    -
+      entity: 9c13e134-4c04-40b2-adf9-eebef9876a8c
+  field_az_published:
+    -
+      value: '2021-07-26'
+  field_az_short_title:
+    -
+      value: '[node:title]'

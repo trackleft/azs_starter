@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6bb62b4-79ac-44f3-af59-0f6394310e03
+  bundle: az_event
+  default_langcode: en
+  depends:
+    deb247f0-dd1b-4746-a1c3-fc25ae3c01ea: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Your Next Event'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /events/your-next-event
+      langcode: en
+  field_az_body:
+    -
+      value: "<p>You can easily create your own!</p>\r\n\r\n<p>This is a sample event that you can delete once you know how to create your own.</p>\r\n\r\n<p>Any events that you add will show up in two places by default:</p>\r\n\r\n<ol>\r\n\t<li>The Event Block at the bottom of the home page.</li>\r\n\t<li>The Events Page.</li>\r\n</ol>\r\n\r\n<p>You can use views to display events on different pages on your website. To learn more about events and how to use them on your site, check out the documentation at&nbsp;<a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a></p>\r\n"
+      format: az_standard
+  field_az_contacts:
+    -
+      entity: deb247f0-dd1b-4746-a1c3-fc25ae3c01ea
+  field_az_event_date:
+    -
+      value: 1793343600
+      end_value: 1793429940
+      duration: 1439
+      rrule: 0
+      rrule_index: 0
+      timezone: ''
+  field_az_featured_image_as_thumb:
+    -
+      value: false
+  field_az_location:
+    -
+      uri: 'https://www.google.com/maps/place/The+University+of+Arizona/@32.2318848,-110.9588642,15z/data=!3m1!4b1!4m5!3m4!1s0x86d671aaee5d9a4d:0x8c5868c06440cf66!8m2!3d32.2318851!4d-110.9501094'
+      title: 'UA Mall'
+      options: {  }

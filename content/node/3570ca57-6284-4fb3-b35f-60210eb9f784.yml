@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3570ca57-6284-4fb3-b35f-60210eb9f784
+  bundle: az_person
+  default_langcode: en
+  depends:
+    6280228c-3c9e-439f-9964-7b23d838962e: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Wilma Wildcat'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /person/wilma-wildcat
+      langcode: en
+  field_az_email:
+    -
+      value: wilmawildcat@arizona.edu
+  field_az_fname:
+    -
+      value: Wilma
+  field_az_lname:
+    -
+      value: Wildcat
+  field_az_media_image:
+    -
+      entity: 6280228c-3c9e-439f-9964-7b23d838962e
+  field_az_phones:
+    -
+      value: '(520) 621-XXXX'
+  field_az_titles:
+    -
+      value: 'Official Mascot'

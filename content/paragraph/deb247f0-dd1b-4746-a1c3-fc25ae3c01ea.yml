@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: deb247f0-dd1b-4746-a1c3-fc25ae3c01ea
+  bundle: az_contact
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value: {  }
+  field_az_email:
+    -
+      value: wilmawildcat@email.arizona.edu
+  field_az_phone:
+    -
+      value: '(520) 626-5555'
+  field_az_title:
+    -
+      value: 'Wilma Wildcat '

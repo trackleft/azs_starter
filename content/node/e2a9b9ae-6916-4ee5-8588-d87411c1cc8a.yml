@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e2a9b9ae-6916-4ee5-8588-d87411c1cc8a
+  bundle: az_flexible_page
+  default_langcode: en
+  depends:
+    83b4519a-a0a1-4f9e-82bf-fe5d0e1a3d1c: paragraph
+    2180d839-591d-4167-aa3f-e53dd1e0bfe4: paragraph
+    d5b4e673-ab54-4486-8c27-5d50847fbf4d: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Directory Page'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /directory-page
+      langcode: en
+  field_az_main_content:
+    -
+      entity: 83b4519a-a0a1-4f9e-82bf-fe5d0e1a3d1c
+    -
+      entity: 2180d839-591d-4167-aa3f-e53dd1e0bfe4
+    -
+      entity: d5b4e673-ab54-4486-8c27-5d50847fbf4d

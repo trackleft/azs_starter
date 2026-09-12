@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7b186438-ea7b-4d94-bdb6-d5c166c2d61f
+  bundle: az_image
+  default_langcode: en
+  depends:
+    94926297-7772-4c70-8021-8be9a705fcf2: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Windmills.jpeg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_az_caption:
+    -
+      value: "The Oso Grande Wind Farm near Roswell, New Mexico, is one of two sites that supply the university with clean energy. The other is Wilmot Energy Center solar-plus-storage system south of Tucson.\r\n"
+      format: plain_text
+  field_az_credit:
+    -
+      value: '-Courtesy of Tucson Electric Power'
+      format: plain_text
+  field_media_az_image:
+    -
+      alt: 'Photo of Windmills'
+      title: ''
+      width: 480
+      height: 285
+      entity: 94926297-7772-4c70-8021-8be9a705fcf2

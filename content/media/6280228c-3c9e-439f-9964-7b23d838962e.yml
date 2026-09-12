@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6280228c-3c9e-439f-9964-7b23d838962e
+  bundle: az_image
+  default_langcode: en
+  depends:
+    61ac5e9d-e52f-4de2-b06d-ab33e2989dc8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Wilma.jpeg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_az_image:
+    -
+      alt: Wilma
+      title: ''
+      width: 220
+      height: 201
+      entity: 61ac5e9d-e52f-4de2-b06d-ab33e2989dc8

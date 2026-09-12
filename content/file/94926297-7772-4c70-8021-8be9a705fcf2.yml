@@ -9,10 +9,10 @@ default:
       target_id: 1
   filename:
     -
-      value: windmills.jpeg
+      value: Windmills.jpeg
   uri:
     -
-      value: public://2025-03/windmills.jpeg
+      value: 'public://2021-07/Windmills.jpeg'
   filemime:
     -
       value: image/jpeg
@@ -22,6 +22,3 @@ default:
   status:
     -
       value: true
-  created:
-    -
-      value: 1626798952

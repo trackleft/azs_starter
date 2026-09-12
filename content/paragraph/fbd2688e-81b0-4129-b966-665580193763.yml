@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: fbd2688e-81b0-4129-b966-665580193763
+  bundle: az_text_media
+  default_langcode: en
+  depends:
+    decd4790-b8ff-432a-81b7-8d2fca6da237: media
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_text_media_paragraph_behavior:
+          full_width: full-width-background
+          style: box
+          bg_color: text-bg-transparent-white
+          position: 'col-md-8 col-lg-6 offset-md-4 offset-lg-6'
+          text_media_spacing: y-8
+          az_display_settings:
+            bottom_spacing: mb-4
+  revision_translation_affected:
+    -
+      value: true
+  field_az_media:
+    -
+      entity: decd4790-b8ff-432a-81b7-8d2fca6da237
+  field_az_text_area:
+    -
+      value: "<h1 class=\"text-align-center\"><span class=\"text-blue\"><strong>This is your front page!</strong></span></h1>\r\n\r\n<p>This page was built using a Page content item.</p>\r\n\r\n<p>You can add new pages by going to <strong>Manage</strong> &gt; <strong>Content</strong> &gt; <strong>Add Content</strong> &gt; <strong>Page</strong>.</p>\r\n\r\n<p>For more information on what you can do with your Arizona Site, visit <a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a>.&nbsp;</p>\r\n"
+      format: az_standard

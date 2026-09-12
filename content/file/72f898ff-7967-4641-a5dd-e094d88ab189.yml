@@ -1,21 +1,24 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 96fef40b-c934-458a-a82f-f599f4d6ada1
+  uuid: 72f898ff-7967-4641-a5dd-e094d88ab189
   default_langcode: en
 default:
+  uid:
+    -
+      target_id: 1
   filename:
     -
-      value: bear-down.jpeg
+      value: 'Mall event-JacobChinn.jpeg'
   uri:
     -
-      value: 'public://bear-down.jpeg'
+      value: 'public://2021-07/Mall event-JacobChinn.jpeg'
   filemime:
     -
       value: image/jpeg
   filesize:
     -
-      value: 512224
+      value: 444759
   status:
     -
       value: true

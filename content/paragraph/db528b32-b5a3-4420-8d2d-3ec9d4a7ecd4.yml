@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: db528b32-b5a3-4420-8d2d-3ec9d4a7ecd4
+  bundle: az_cards
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_cards_paragraph_behavior:
+          card_width: col-lg-4
+          card_style: 'card border-0'
+          az_display_settings:
+            bottom_spacing: mb-4
+            card_width_sm: col-md-6
+            card_width_xs: col-12
+  revision_translation_affected:
+    -
+      value: true
+  field_az_cards:
+    -
+      title: 'Logging in'
+      body: "<p>If you want to make any changes to this page or add content, you will need to log in as an administrator&nbsp;by adding \"/cas\" to the end of the website URL (example.arizona.edu/cas)</p>\r\n"
+      body_format: az_standard
+      media: 10
+      link_title: ''
+      link_uri: ''
+      options:
+        class: text-bg-blue
+    -
+      title: 'Adding Content to your site.'
+      body: "<p>To start adding other pages, go to <strong>Manage&nbsp;</strong>&gt; <strong>Content</strong> and then click on <strong>Add Content</strong>. Pages are a great place to start.</p>\r\n\r\n<p>For more about Content and how to add content to your site check out the documentation at <a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a></p>\r\n"
+      body_format: az_standard
+      media: 11
+      link_title: ''
+      link_uri: ''
+      options:
+        class: text-bg-white
+    -
+      title: 'Editing or Deleting this page'
+      body: "<p><strong>Editing</strong></p>\r\n\r\n<ul>\r\n\t<li>You can edit this page by simply clicking <strong>Edit</strong> at the top of the page.</li>\r\n</ul>\r\n\r\n<p><strong>Deleting&nbsp;</strong></p>\r\n\r\n<ul>\r\n\t<li>You can delete a&nbsp;page by simply clicking <strong>Delete</strong> at the top of the page.</li>\r\n</ul>\r\n"
+      body_format: az_standard
+      media: 12
+      link_title: ''
+      link_uri: ''
+      options:
+        class: text-bg-red

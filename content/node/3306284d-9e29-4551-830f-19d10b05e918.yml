@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3306284d-9e29-4551-830f-19d10b05e918
+  bundle: az_flexible_page
+  default_langcode: en
+  depends:
+    fbd2688e-81b0-4129-b966-665580193763: paragraph
+    4fbd3b12-cfa2-4ca3-9c52-880139dd1c05: paragraph
+    db528b32-b5a3-4420-8d2d-3ec9d4a7ecd4: paragraph
+    6a105cb7-7b46-4b34-95b5-caa155131883: paragraph
+    9a809885-25bb-4120-800f-b887f5f64766: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /home
+      langcode: en
+  field_az_main_content:
+    -
+      entity: fbd2688e-81b0-4129-b966-665580193763
+    -
+      entity: 4fbd3b12-cfa2-4ca3-9c52-880139dd1c05
+    -
+      entity: db528b32-b5a3-4420-8d2d-3ec9d4a7ecd4
+    -
+      entity: 6a105cb7-7b46-4b34-95b5-caa155131883
+    -
+      entity: 9a809885-25bb-4120-800f-b887f5f64766

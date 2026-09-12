@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: b4d7ac2d-2598-4da6-9726-ff3dafc558b9
+  bundle: az_accordion
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_accordion_paragraph_behavior:
+          expand_all: false
+          az_display_settings:
+            bottom_spacing: mb-6
+  revision_translation_affected:
+    -
+      value: true
+  field_az_accordion:
+    -
+      title: 'Editing This Page'
+      body: "<p>You can edit this page by simply clicking&nbsp;<strong>Edit</strong>&nbsp;at the top of the page</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Adding Events to Your Calendar (Events Page)'
+      body: "<p>To add Events to this page go to&nbsp;<strong>Content &gt; Add Content &gt; Event.</strong></p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Editing Events on Your Calendar'
+      body: "<p>You can edit any Event on this page by clicking on the event, then clicking <strong>Edit </strong>at the top of that event page.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Removing Events on Your Calendar'
+      body: "<p>You can delete any Event on this page by clicking on the event, then clicking&nbsp;<strong>Delete</strong>&nbsp;at the top of that event page.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Getting Rid of This Page'
+      body: "<p>You can delete the page by clicking on&nbsp;<strong>Delete&nbsp;</strong>on top of the page.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Changing the Menu Link for this Page'
+      body: "<ol>\r\n\t<li><strong>Edit</strong>&nbsp;this page</li>\r\n\t<li>Navigate to <strong>Menu Settings</strong>&nbsp;in the right sidebar</li>\r\n\t<li>Change the <strong>Menu Link Title</strong> as desired</li>\r\n\t<li>If you want to change the order of Menu Items, you can change the weight. Lower numbers will be on the left, higher numbers will be on the right.</li>\r\n</ol>\r\n"
+      body_format: az_standard
+      collapsed: true

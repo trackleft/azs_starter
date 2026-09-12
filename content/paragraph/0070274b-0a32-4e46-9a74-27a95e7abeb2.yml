@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 0070274b-0a32-4e46-9a74-27a95e7abeb2
+  bundle: az_text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_default_paragraph_behavior:
+          az_display_settings:
+            bottom_spacing: mb-0
+  field_az_text_area:
+    -
+      value: "<p><span class=\"lead\">This is an example of a News Page.</span></p>\r\n\r\n<p><span class=\"lead\">Modify this page to meet your needs. Delete the demo News articles and add yours.&nbsp;</span></p>\r\n\r\n<p><span class=\"lead\">Step by step directions for everything that you would want to do with this page are at the bottom of the page.</span></p>\r\n\r\n<p><span class=\"lead\">For more about News and how to use it on your site checkout the documentation at <a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a></span></p>\r\n\r\n<hr />\r\n<p>&nbsp;</p>\r\n"
+      format: az_standard

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 5df32030-5956-4f30-a44d-2ae705e95fc1
+  bundle: az_accordion
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        az_accordion_paragraph_behavior:
+          expand_all: false
+          az_display_settings:
+            bottom_spacing: mb-6
+  revision_translation_affected:
+    -
+      value: true
+  field_az_accordion:
+    -
+      title: 'Editing this Page'
+      body: "<p>You can edit this page by simply clicking&nbsp;<strong>Edit</strong>&nbsp;at the top of the page.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Adding News to Your News Page'
+      body: "<p>To add News to this page, go to <strong>Content</strong> &gt; <strong>Add Content</strong> &gt; <strong>News</strong>.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Editing News on Your News Page'
+      body: "<p>You can&nbsp;edit any News by clicking on the News item,&nbsp;then clicking&nbsp;<strong>Edit&nbsp;</strong>at the top of that News page.</p>\r\n\r\n<p>You can also edit a&nbsp;News item by hovering over the item&nbsp;and clicking the Edit icon (the pencil in the upper righthand corner), then selecting&nbsp;<strong>Edit.&nbsp;</strong></p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Removing News from Your News Page'
+      body: "<p>You can delete any News&nbsp;on this page by clicking on the&nbsp;News item, then clicking&nbsp;<strong>Delete</strong>&nbsp;at the top of that News page.</p>\r\n\r\n<p>You can also delete a&nbsp;News item by hovering over that item and clicking the Edit icon (the pencil in the upper righthand corner), then selecting&nbsp;<strong>Delete.&nbsp;</strong></p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Getting Rid of this Page'
+      body: "<p>You can delete the page by clicking on&nbsp;<strong>Delete&nbsp;</strong>on top of the page.</p>\r\n"
+      body_format: az_standard
+      collapsed: true
+    -
+      title: 'Changing the Menu Link for this Page'
+      body: "<ol>\r\n\t<li><strong>Edit</strong>&nbsp;this page</li>\r\n\t<li>Navigate to <strong>Menu Settings</strong>&nbsp;in the right sidebar</li>\r\n\t<li>Change the <strong>Menu Link Title</strong> as desired</li>\r\n\t<li>If you want to change the order of Menu Items, you can change the weight. Lower numbers will be on the left, higher numbers will be on the right.</li>\r\n</ol>\r\n"
+      body_format: az_standard
+      collapsed: true
