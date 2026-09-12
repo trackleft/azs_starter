@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4695b27b-289f-40e8-bc87-d257709fc66d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wilbur.png
+  uri:
+    -
+      value: public://2025-03/wilbur.png
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 48527
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1626799062

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fa0ec225-6233-4475-8680-4f77e0b69da6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Starter-Graduation.jpeg
+  uri:
+    -
+      value: 'public://2025-03/Starter-Graduation.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 207558
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1626797231

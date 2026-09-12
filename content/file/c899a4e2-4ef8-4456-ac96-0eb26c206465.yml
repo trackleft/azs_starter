@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c899a4e2-4ef8-4456-ac96-0eb26c206465
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bear-down.jpeg
+  uri:
+    -
+      value: 'public://2025-03/bear-down.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 512224
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1626798860x`

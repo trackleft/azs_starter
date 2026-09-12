@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94926297-7772-4c70-8021-8be9a705fcf2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: windmills.jpeg
+  uri:
+    -
+      value: public://2025-03/windmills.jpeg
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 16221
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1626798952

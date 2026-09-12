@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1d486783-81d3-48bc-a081-1008679ce61d
+  bundle: az_image
+  default_langcode: en
+  depends:
+    96fef40b-c934-458a-a82f-f599f4d6ada1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'Bear Down Retire-Test Image'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_focal_point_x:
+    -
+      value: '0.5'
+  field_focal_point_y:
+    -
+      value: '0.5'
+  field_media_az_image:
+    -
+      alt: 'A bunch of laptops on a table from above'
+      title: ''
+      width: 1600
+      height: 1064
+      entity: 96fef40b-c934-458a-a82f-f599f4d6ada1
