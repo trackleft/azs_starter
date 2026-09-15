@@ -21,13 +21,11 @@ These steps assume a local [Lando](https://lando.dev/) + [Arizona Quickstart](ht
    git clone https://github.com/trackleft/azs_starter.git recipes/azs_starter
    ```
 
-3. **Apply the recipe:**
+3. **Apply the recipe.** Use an absolute, container-side path — `lando drush recipe` reliably fails to resolve a relative path (`recipes/azs_starter`) against a Pantheon-recipe Lando app, reporting it "is not a directory" even though it exists:
 
    ```bash
-   lando drush recipe recipes/azs_starter
+   lando drush recipe /app/recipes/azs_starter
    ```
-
-   (If `drush recipe` can't resolve a relative path in your environment, pass an absolute path instead, e.g. `lando drush recipe /app/recipes/azs_starter` when running through Lando's Pantheon recipe.)
 
 4. **Rebuild cache and take a look:**
 
