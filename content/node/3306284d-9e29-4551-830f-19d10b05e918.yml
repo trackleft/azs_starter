@@ -36,6 +36,7 @@ default:
     -
       alias: /home
       langcode: en
+      pathauto: 0
   field_az_main_content:
     -
       entity: fbd2688e-81b0-4129-b966-665580193763

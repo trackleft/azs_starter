@@ -32,6 +32,7 @@ default:
     -
       alias: /events/your-first-event
       langcode: en
+      pathauto: 0
   field_az_body:
     -
       value: "<p>You can easily create your own!</p>\r\n\r\n<p>This is a sample event that you can delete once you know how to create your own.</p>\r\n\r\n<p>Any events that you add will show up in two places by default:</p>\r\n\r\n<ol>\r\n\t<li>The Event Block at the bottom of the home page.</li>\r\n\t<li>The Events Page.</li>\r\n</ol>\r\n\r\n<p>You can use views to display events on different pages on your website. To learn more about events and how to use them on your site, check out the documentation at&nbsp;<a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a></p>\r\n\r\n<p>&nbsp;</p>\r\n"

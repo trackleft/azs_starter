@@ -34,6 +34,7 @@ default:
     -
       alias: /events-page
       langcode: en
+      pathauto: 0
   field_az_main_content:
     -
       entity: dafa2e0b-74d8-4fff-98a3-8539f0c269e3

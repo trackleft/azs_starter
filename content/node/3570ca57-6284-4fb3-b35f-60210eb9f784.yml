@@ -32,6 +32,7 @@ default:
     -
       alias: /person/wilma-wildcat
       langcode: en
+      pathauto: 0
   field_az_email:
     -
       value: wilmawildcat@arizona.edu

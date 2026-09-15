@@ -31,6 +31,7 @@ default:
     -
       alias: /directory-page
       langcode: en
+      pathauto: 0
   field_az_main_content:
     -
       entity: 83b4519a-a0a1-4f9e-82bf-fe5d0e1a3d1c

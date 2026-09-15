@@ -32,6 +32,7 @@ default:
     -
       alias: /news/news-article-photo
       langcode: en
+      pathauto: 0
   field_az_body:
     -
       value: "<p>You can add News to your site to highlight cool things that your department is doing.&nbsp;</p>\r\n"

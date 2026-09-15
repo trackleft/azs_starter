@@ -30,6 +30,7 @@ default:
     -
       alias: /news/news-article-without-photo
       langcode: en
+      pathauto: 0
   field_az_body:
     -
       value: "<p>You don't have to add an image to your article. This way, only the article title and Summary text will display on your News Page.</p>\r\n\r\n<p>Learn more about how to create news and other content at <a href=\"https://quickstart.arizona.edu/\">quickstart.arizona.edu</a>.</p>\r\n"

@@ -32,6 +32,7 @@ default:
     -
       alias: /person/wilbur-wildcat
       langcode: en
+      pathauto: 0
   field_az_email:
     -
       value: wilburwildcat@email.arizona.edu
